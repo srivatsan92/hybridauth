@@ -1,0 +1,3 @@
+[submodule "hybridauth/Hybrid/thirdparty/php-graph-sdk"]
+	path = hybridauth/Hybrid/thirdparty/php-graph-sdk
+	url = https://github.com/srivatsan92/php-graph-sdk.git
