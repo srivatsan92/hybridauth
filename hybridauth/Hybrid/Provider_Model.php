@@ -139,7 +139,7 @@ abstract class Hybrid_Provider_Model {
    */
   protected function autoLoaderInit() {
     // Check if there is SDK in thirdparty/[providerId].
-    $filename = Hybrid_Auth::$config["path_libraries"] . "{$this->providerId}/autoload.php";
+    $filename = Hybrid_Auth::$config["path_libraries"] . "php-graph-sdk/src/" . "{$this->providerId}/autoload.php";
     if (file_exists($filename)) {
       require_once $filename;
     }
